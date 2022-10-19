@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    background-color: lightgray;
+    width: 250px;
+    height: 100vh;
+
+
+
+}
+
+div.left>h2 {
+    font-size: 20px;
+    padding-top: 50px;
+    text-indent: 30px;
+}
+
+div.left>h2>span {
+    color: orange;
+}
+
+section {
+    text-indent: 120px;
+    padding-top: 50px;
+    padding-right: 350px;
+
+}
+
+.default {
+    margin-top: 30px;
+    padding-left: 50px;
+
+    width: 150px;
+    height: 40px;
+
+    background-color: rgba(128, 128, 128, 0.37);
+
+
+}
