@@ -48,8 +48,8 @@ main {
 main>h1 {
     font-size: 30px;
     font-weight: 549.9;
-    color: rgb(117, 117, 117);
-    margin-bottom: 40px;
+    color: rgb(70, 70, 70);
+    margin-bottom: -30px;
 }
 
 main>div>p {
@@ -62,7 +62,7 @@ main>div>p {
 }
 
 .buttondefault {
-    height: 45px;
+    height: 40px;
     width: 90px;
     background-color: rgba(211, 211, 211, 0.603);
     border-radius: 10px;
@@ -98,4 +98,43 @@ main>div>p {
     background-color: gray;
     color: black;
     font-weight: bolder;
+}
+
+.boxdefaultleft{
+    margin-top: 60px;
+}
+
+#bgwborblu,#colblue{
+    background-color: white;
+    color: rgb(100, 100, 248);
+    border: 1px solid rgb(100, 100, 248);
+}
+
+#colblue:hover{
+    color: rgb(100, 100, 248);
+    background-color: rgba(127, 160, 252, 0.233);
+    border: 1px solid rgb(100, 100, 248);
+}
+
+#noborder,#noborderhover{
+    background-color: white;
+    color: rgb(100, 100, 248);
+}
+
+#noborderhover:hover{
+    background-color: rgba(127, 160, 252, 0.233);
+}
+
+#bgbluecolwhite{
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 26, 255, 0.705);
+}
+
+#boxdefaultleft2{
+    margin-top: 120px;
+}
+
+#divhoverdefault{
+    margin-top: 120px;
 }
