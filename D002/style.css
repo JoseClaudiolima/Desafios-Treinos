@@ -65,7 +65,7 @@ main>div>p {
     height: 40px;
     width: 90px;
     background-color: rgba(211, 211, 211, 0.603);
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: center;
     position: absolute;
     color: rgb(92, 91, 91);
@@ -81,7 +81,7 @@ main>div>p {
 }
 
 .divhoverdefault {
-    margin-left: 180px;
+    margin-left: 210px;
     transform: translateY(-35px)
 }
 
@@ -131,10 +131,42 @@ main>div>p {
     background-color: rgba(0, 26, 255, 0.705);
 }
 
-#boxdefaultleft2{
+.boxdefaultleft2{
     margin-top: 120px;
 }
 
 #divhoverdefault{
     margin-top: 120px;
+}
+
+#texthover5:hover{
+    background-color: white;
+}
+
+#bgbluecolwhite2{
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 26, 255, 0.705);
+}
+
+#bgbluecolwhite3{
+    width: 100px;
+    color: white;
+    background-color: rgba(0, 26, 255, 0.705);
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    transform: translateY(10px);
+    left: 10%;
+}
+
+#shoppingcar{
+    position: absolute;
+    left: 30%;
+}
+
+#hovercar:hover{
+    position: absolute;
+    left: 70%;
 }
