@@ -104,4 +104,8 @@ The designs were created to the following widths:
         width: 236px;
         transform: translateY(-23px);
     }
+
+    @media screen and (min-height: 400px) {
+
+    }
 }

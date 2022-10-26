@@ -107,7 +107,7 @@
                 &lt;Button /&gt;
             </p>
             <p class="buttondefault" style="color:rgba(128, 128, 128, 0.637); font-weight: lighter;">
-                <span class="spanbutton">Default</span>
+                <span class="spanbutton">Disabled</span>
             </p>
         </div>
         <div class="divhoverdefault">
@@ -116,7 +116,7 @@
                 &lt;Button variant="text" disable /&gt;
             </p>
             <p class="buttondefault" id="texthover5" style="color:rgba(128, 128, 128, 0.637); font-weight: lighter;">
-                <span class="spanbutton">Default</span>
+                <span class="spanbutton">Disabled</span>
             </p>
         </div>
 
@@ -126,7 +126,7 @@
             <p class="textdefault">
                 &lt;Button /&gt;
             </p>
-            <p class="buttondefault" id="bgbluecolwhite3" >
+            <p class="buttondefault" id="bgbluecolwhite3" onclick="changelocationcar()">
                 <span class="material-symbols-outlined" style="font-size: 18px;">
                     add_shopping_cart
                     </span>
@@ -138,7 +138,7 @@
             <p class="textdefault" id="texthover1" >
                 &lt;Button endIcon="local_grocery_store" /&gt;
             </p>
-            <p class="buttondefault" id="bgbluecolwhite3" style="width: 120px;">
+            <p class="buttondefault" id="" style="width: 120px;">
                 <span class="material-symbols-outlined" style="font-size: 18px;" id="hovercar">
                     add_shopping_cart
                     </span>
@@ -167,6 +167,19 @@
         </div>
 
     </main>
+
+    <script>
+        var hovercar = document.querySelector("#hovercar")
+
+
+        function changelocationcar(){
+            alert("A")
+        }
+
+
+        //onmouseenter The event occurs when the pointer is moved onto an element
+
+    </script>
 </body>
 
 </html>
