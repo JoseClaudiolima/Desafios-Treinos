@@ -179,11 +179,6 @@ main>div>p {
     left: 30%;
 }
 
-#hovercar:hover{
-    position: absolute;
-    left: 70%;
-}
-
 /*7 linha*/
 #sizesm{
     width: 70px;
