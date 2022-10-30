@@ -1,10 +1,3 @@
-@charset "UTF-8";
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-/*
 # Front-end Style Guide
 
 ## Layout
@@ -38,4 +31,3 @@ The designs were created to the following widths:
 
 - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700
-*/
