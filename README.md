@@ -1,3 +1,3 @@
 # Desafios-Treinos
  
-Projetos feitos treinando front-end.
+Projetos feitos para treinar meu front-end.
