@@ -1,41 +1,62 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 /*
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
-
-### Primary
-
-- Orange: hsl(25, 97%, 53%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Light Grey: hsl(217, 12%, 63%)
-- Medium Grey: hsl(216, 12%, 54%)
-- Dark Blue: hsl(213, 19%, 18%)
-- Very Dark Blue: hsl(216, 12%, 8%)
-
-## Typography
-
-### Body Copy
-
 - Font size (paragraph): 15px
-
-### Font
-
-- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
-- Weights: 400, 700
 */
+
+:root{
+    --cor0: white;
+    --ColorOrange: #fb7413;
+    --ColorLGrey: #959eac;
+    --ColorMGrey: #7c8798;
+    --ColorBlue: #252d37;
+    --ColorDBlue: #121417;
+
+    --fontpadrão: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: var(--ColorDBlue);
+    color: white;
+}
+
+.material-icons{
+    color: var(--ColorOrange);
+
+}
+
+section{
+    width: 306px;
+    height: 358px;
+    background-image: linear-gradient(to bottom,#252d37,#121417);
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 24px;
+}
+
+picture >img{
+    margin-top: 20px;
+    background-color: #30343a;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p#lorem{
+    line-height: 1.27em;
+
+}
