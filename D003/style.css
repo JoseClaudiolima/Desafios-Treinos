@@ -27,6 +27,7 @@
 body{
     background-color: var(--ColorDBlue);
     color: white;
+    font-family: var(--fontpadrão);
 }
 
 .material-icons{
@@ -35,28 +36,84 @@ body{
 }
 
 section{
-    width: 306px;
-    height: 358px;
-    background-image: linear-gradient(to bottom,#252d37,#121417);
+    width: 19em;
+    /*height:  22.375em;*/
+    height: 22.5em;
+    background-image: linear-gradient(to bottom,#1e252c,#181a1ff8);
+
     margin: auto;
-    border-radius: 10px;
-    padding-left: 24px;
+    border-radius: 0.9375em;
+    padding-left: 1.625em;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 picture >img{
-    margin-top: 20px;
+    margin-top: 1.60rem;
     background-color: #30343a;
-    padding: 10px;
+    padding: 0.695em;
     border-radius: 50%;
 
 }
 
 h2{
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 0.86rem;
+    margin-bottom: 0.78rem;
 }
 
 p#lorem{
-    line-height: 1.27em;
+    width: 20.4em;
 
+    line-height: 1.55em;
+    font-size: 0.86em;
+    color: var(--ColorMGrey);
+
+    margin-bottom: 2em;
+}
+
+.buttonnumber{
+    width: 2.5em;
+    height: 2.5em;
+
+    padding: 1px;
+    display: inline-block;
+
+    background-color: var(--ColorBlue);
+    border-radius: 50%;
+
+    font-size: 1em;
+    text-align: center;    
+    color: var(--ColorMGrey);
+}
+
+.left{
+    margin-left: 0.875em;
+}
+
+.vertical{
+    position: absolute;
+    top:14.45em;
+    transform: translateX(-0.2em);
+}
+
+#submit{
+    width: 18.4em;
+    height: 1.4em;
+    border-radius: 40px;
+
+    margin-top: 1.3em;
+    background-color: var(--ColorOrange);
+
+    text-align: center;
+    padding: 12.6px;
+    font-size: 0.85em;
+}
+
+#ssub{
+    position: absolute;
+    transform: translateY(4px);
+    left: 10em;
 }
