@@ -117,3 +117,29 @@ p#lorem{
     transform: translateY(4px);
     left: 10em;
 }
+
+p#b1:hover{
+    background-color: var(--ColorOrange);
+    color: white;
+    cursor: pointer;
+}
+p#b2:hover{
+    background-color: var(--ColorOrange);
+    color: white;
+    cursor: pointer;
+}
+p#b3:hover{
+    background-color: var(--ColorOrange);
+    color: white;
+    cursor: pointer;
+}
+p#b4:hover{
+    background-color: var(--ColorOrange);
+    color: white;
+    cursor: pointer;
+}
+p#b5:hover{
+    background-color: var(--ColorOrange);
+    color: white;
+    cursor: pointer;
+}
