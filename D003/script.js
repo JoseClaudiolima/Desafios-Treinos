@@ -7,6 +7,11 @@ var b3 = document.querySelector("#b3")
 var b4 = document.querySelector("#b4")
 var b5 = document.querySelector("#b5")
 
+var img = document.querySelector("#star")
+var divstart = document.querySelector("#how-did-we-do")
+var divrating = document.querySelector("#thank-you-state")
+var presult = document.querySelector("#result")
+
 list = [b1,b2,b3,b4,b5]
 
 function selbutton(a){
@@ -98,7 +103,9 @@ function reclick(a){
 
 function sub(){
     if (validation != 0){
-        alert(validation)
+        img.src = 'images/illustration-thank-you.svg'
+        divstart.style.display = 'none'
+        divrating.style.display = 'block'
+        presult.innerHTML = `You selected ${validation} out of 5`
     }
 }
-

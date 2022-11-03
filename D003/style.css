@@ -35,6 +35,8 @@ body{
 
 }
 
+
+/*Rating*/
 section{
     width: 19em;
     /*height:  22.375em;*/
@@ -51,7 +53,7 @@ section{
     transform: translate(-50%,-50%);
 }
 
-picture >img{
+picture >img#star{
     margin-top: 1.60rem;
     background-color: #30343a;
     padding: 0.695em;
@@ -142,4 +144,39 @@ p#b5:hover{
     background-color: var(--ColorOrange);
     color: white;
     cursor: pointer;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+/*thanks-you-state*/
+#thank-you-state{
+    display: none;
+}
+
+
+#imgthanks{
+    margin: auto;
+    display: block;
+    width: 145px;
+    margin-top: 35px;
+    margin-left: 65px;
+}
+
+p#result{
+    margin: auto;
+    margin-top: 20px;
+
+    color: #d18512;
+
+    background-color: var(--ColorBlue);
+    border-radius: 35px;
+    padding: 7px 15px;
+
+    display: inline-block;
+
+    font-size: 14px;
+    text-align: center;
+    transform: translateX(4em);
 }
