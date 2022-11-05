@@ -19,34 +19,34 @@ function selbutton(a){
         validation = 1
         b1.style.backgroundColor = '#7c8798'
         b1.style.color = 'white'
-        reclick(1)
+        reclick(a)
     }
 
     if (a==2){
         validation = 2
         b2.style.backgroundColor = '#7c8798'
         b2.style.color = 'white'
-        reclick(2)
+        reclick(a)
     }
     
     if (a==3){
         validation = 3
         b3.style.backgroundColor = '#7c8798'
         b3.style.color = 'white'
-        reclick(3)
+        reclick(a)
     }
     if (a==4){
         validation = 4
         b4.style.backgroundColor = '#7c8798'
         b4.style.color = 'white'
-        reclick(4)
+        reclick(a)
     }
 
     if (a==5){
         validation = 5
         b5.style.backgroundColor = '#7c8798'
         b5.style.color = 'white'
-        reclick(5)
+        reclick(a)
     }
 }
 
@@ -80,8 +80,8 @@ function mouseenter(button){
             list[button].style.backgroundColor = '#7c8798'
             list[button].style.color = 'white'
         })
-        } else{
-            list[button].addEventListener('mouseout',function b(){
+    } else{
+        list[button].addEventListener('mouseout',function b(){
                 list[button].style.backgroundColor = '#252d37'
                 list[button].style.color = '#7c8798'
                 if (validation ==button+1){
@@ -103,7 +103,6 @@ function reclick(a){
 
 function sub(){
     if (validation != 0){
-        img.src = 'images/illustration-thank-you.svg'
         divstart.style.display = 'none'
         divrating.style.display = 'block'
         presult.innerHTML = `You selected ${validation} out of 5`

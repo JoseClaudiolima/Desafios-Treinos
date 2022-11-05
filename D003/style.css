@@ -166,7 +166,7 @@ p#b5:hover{
 
 p#result{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 25px;
 
     color: #d18512;
 
@@ -179,4 +179,28 @@ p#result{
     font-size: 14px;
     text-align: center;
     transform: translateX(4em);
+}
+
+#thx{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 24px;
+    transform: translateX(-13px);
+    
+}
+
+#appreciate{
+    color: var(--ColorMGrey);
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 21px;
+    
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 279px;
+
+    position: absolute;
+    left: 8%
 }
