@@ -14,39 +14,39 @@ var presult = document.querySelector("#result")
 
 list = [b1,b2,b3,b4,b5]
 
-function selbutton(a){
-    if (a ==1){
+function selbutton(indication){
+    if (indication ==1){
         validation = 1
         b1.style.backgroundColor = '#7c8798'
         b1.style.color = 'white'
-        reclick(a)
+        reclick(indication)
     }
 
-    if (a==2){
+    if (indication==2){
         validation = 2
         b2.style.backgroundColor = '#7c8798'
         b2.style.color = 'white'
-        reclick(a)
+        reclick(indication)
     }
     
-    if (a==3){
+    if (indication==3){
         validation = 3
         b3.style.backgroundColor = '#7c8798'
         b3.style.color = 'white'
-        reclick(a)
+        reclick(indication)
     }
-    if (a==4){
+    if (indication==4){
         validation = 4
         b4.style.backgroundColor = '#7c8798'
         b4.style.color = 'white'
-        reclick(a)
+        reclick(indication)
     }
 
-    if (a==5){
+    if (indication==5){
         validation = 5
         b5.style.backgroundColor = '#7c8798'
         b5.style.color = 'white'
-        reclick(a)
+        reclick(indication)
     }
 }
 
@@ -70,6 +70,7 @@ b5.addEventListener('mouseenter',function a(){
     mouseenter(5)
 })
 
+//its like a hover (css) but in js
 function mouseenter(button){
     button -=1
     list[button].style.backgroundColor = '#fb7413'
@@ -92,7 +93,8 @@ function mouseenter(button){
     }    
 }
 
-function reclick(a){
+//'clean' the text color and backgroundcolor when click in other button
+function reclick(a){ 
     for (let pos in list){
         if (pos != a-1){
             list[pos].style.color = '#7c8798'
@@ -100,6 +102,7 @@ function reclick(a){
         }
     }
 }
+
 
 function sub(){
     if (validation != 0){
