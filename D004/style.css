@@ -10,7 +10,7 @@
 :root{
     --font-padrão: Arial, Helvetica, sans-serif;
     --font-Poppins: 'Poppins';
-    --Red: hsl(0, 100%, 74%);
+    --Pink: hsl(0, 100%, 74%);
     --Green: hsl(154, 59%, 51%);
     --Blue: Blue: hsl(248, 32%, 49%);
     --DarkBlue: hsl(249, 10%, 26%);
@@ -26,3 +26,10 @@ body{
 
 - Font size: 16px
 */
+
+main{
+    background: var(--Pink) url("images/bg-intro-desktop.png") repeat;
+    height: 100vh;
+    color: white;
+}
+
