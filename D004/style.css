@@ -17,57 +17,9 @@
     --GrayishBlue:hsl(246, 25%, 77%);
 }
 
-body{
-    font-family: var(--font-Poppins), Helvetica, sans-serif;
-    background: var(--Pink) url("images/bg-intro-desktop.png") repeat;
-}
 /*
 - Mobile: 375px
 - Desktop: 1440px
 
 - Font size: 16px
 */
-
-main{
-
-    height: 100vh;
-    color: white;
-}
-
-.right{
-    margin-left: 731px;
-    width: 540px;
-}
-
-section{
-    background-color: white;
-    height: 474px;
-
-    color: var(--DarkBlue);
-
-    border-radius: 10px;
-    box-shadow: 1px 9px 1px rgba(0, 0, 0, 0.116);
-}
-
-header{
-    background-color: var(--Blue);
-    text-align: center;
-    font-weight: 250;
-    font-size: 15.6px;
-    margin-top: 123px;
-    margin-bottom: 25px;
-    padding: 17px 0px;
-
-    border-radius: 0.7em;
-    box-shadow: 1px 8px 1px rgba(0, 0, 0, 0.116);
-}
-
-#tryheader{
-    font-weight: 500;
-}
-
-input{
-    width: 500px;
-    text-align: center;
-    margin: auto;
-}
