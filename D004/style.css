@@ -17,6 +17,91 @@
     --GrayishBlue:hsl(246, 25%, 77%);
 }
 
+
+body{
+    background: var(--Pink) url('images/bg-intro-desktop.png');
+    font-family: var(--font-Poppins);
+}
+
+.right{
+    width: 33.75em;
+    margin-left: calc(100vw - 11.8vw - 33.75em);
+    border-radius: 8px;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.164);
+}
+
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--Blue);
+    text-align: center;
+    color: white;
+
+    height: 3.75em;
+
+    margin-top: 7.5em;
+    margin-bottom: 1.5em;
+}
+header > span{
+    font-weight: bold;
+}
+
+/*Section box*/
+section.formbox{
+    background-color: white;
+}
+
+section > form{
+    display: flex;
+    flex-direction: column;
+    height: 29.6875em;
+}
+
+form > input{
+    color: var(--DarkBlue);
+    font-weight: bolder;
+    
+    width: 28.75rem;
+    height: 3.375rem;
+    border-radius: 5px;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 1.25rem;
+}
+
+form > input:first-child{
+    margin-top: 2.5rem;
+}
+
+.input{
+    border: 1px solid rgba(128, 128, 128, 0.384); 
+    text-indent: 30px;
+}
+
+.button{
+    text-align: center;
+    background-color: var(--Green);
+    color: white;
+    border: none;
+    width: 29rem;
+
+    letter-spacing: 1px;
+}
+
+section > form > p{
+    color: rgba(128, 128, 128, 0.555);
+    font-size: 11px;
+    text-align: center;
+}
+
+section > form > p > span{
+    color: var(--Pink);
+    font-weight: bold;
+}
 /*
 - Mobile: 375px
 - Desktop: 1440px
