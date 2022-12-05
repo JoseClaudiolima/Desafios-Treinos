@@ -23,9 +23,16 @@ body{
     font-family: var(--font-Poppins);
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+}
+
 .right{
     width: 33.75em;
-    margin-left: calc(100vw - 11.8vw - 33.75em);
+
+    margin-left: calc(51vw - 11.11vw - 78px - 500px);
+
     border-radius: 8px;
     box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.164);
 }
@@ -42,7 +49,7 @@ header{
 
     height: 3.75em;
 
-    margin-top: 7.5em;
+    margin-top: 15vh;
     margin-bottom: 1.5em;
 }
 header > span{
@@ -80,6 +87,8 @@ form > input:first-child{
 .input{
     border: 1px solid rgba(128, 128, 128, 0.384); 
     text-indent: 30px;
+    font-weight: bolder;
+
 }
 
 .button{
@@ -102,9 +111,78 @@ section > form > p > span{
     color: var(--Pink);
     font-weight: bold;
 }
-/*
-- Mobile: 375px
-- Desktop: 1440px
 
-- Font size: 16px
-*/
+#buttonform:hover{
+    cursor: pointer;
+}
+
+/*ASIDE*/
+aside{
+    margin-top: 37.5vh;
+    margin-left: 11.11vw;
+    margin-right: 78px;
+
+    color: white;
+}
+
+aside > h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    line-height: 1.2em;
+}
+
+aside > h1,p{
+    width: 500px;
+}
+
+@media screen and (max-width: 1300px){
+
+    @media screen and (max-height:780px){
+        header{
+            margin-bottom: 0px;
+        }
+    }
+
+
+
+    main{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: column;
+
+        width: 580px;
+    }
+
+    
+    .right,aside{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    aside > h1,p{
+        width: 578px;
+        margin: auto;
+    }
+
+    aside > h1 {
+        font-size: 2.8em;
+        text-align: center;
+
+        margin-bottom: 15px;
+    }
+
+    aside > p{
+        width: 500px;
+        margin-bottom: 15px;
+        
+        font-size: 0.9em;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-height:665px){
+    header{
+        margin-bottom: 0px;
+    }
+}
