@@ -186,3 +186,27 @@ aside > h1,p{
         margin-bottom: 0px;
     }
 }
+
+@media screen and (max-width: 501px) {
+    main{
+        height: 640px;
+        margin: 0px;
+    }
+    
+    main,section > form,section >form>p,section.right,header.right,aside > h1,aside > p{
+        width: 340px;
+    }
+
+    section > form > input,section > form > input.button{
+        width: 320px;
+    }
+
+    aside > h1{
+        font-size: 2em;
+    }
+
+    aside > p {
+        font-size: 0.8em;
+        display: none;
+    }
+}
