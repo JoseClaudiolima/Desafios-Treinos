@@ -200,3 +200,13 @@ p#result{
     position: absolute;
     left: 8%
 }
+
+footer{
+    margin-top: 96vh;
+    text-align: center;
+}
+
+footer > a{
+    text-decoration: none;
+    color: #d18512;
+}
