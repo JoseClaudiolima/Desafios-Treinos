@@ -146,3 +146,14 @@ a#acart {
 p.add:hover {
     background-color: rgb(33, 71, 57);
 }
+
+footer{
+    margin-top: 96vh;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer > a{
+    text-decoration: none;
+    color: blue;
+}

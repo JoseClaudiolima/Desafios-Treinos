@@ -58,6 +58,10 @@ The designs were created to the following widths:
         width: 250px;
         height: 45px;
     }
+
+    footer{
+        display: none;
+    }
 }
 
 
