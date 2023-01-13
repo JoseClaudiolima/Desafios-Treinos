@@ -210,3 +210,13 @@ aside > h1,p{
         display: none;
     }
 }
+
+footer{
+    margin-top: 1vh;
+    text-align: center;
+}
+
+footer > a{
+    text-decoration: none;
+    color: blue;
+}
